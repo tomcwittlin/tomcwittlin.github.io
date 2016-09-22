@@ -34,14 +34,15 @@ a.link{
 
 
 /* TYPOGRAPHY */
+@media screen and (max-width: 40em) {
+.homelaunch{
+	margin: 0px 0 100px 0;
+}
+}
 @media screen and (min-width: 40em) {
 .homelaunch{
-	margin: 40px 0 100px 0;
-}
-}
-
-.homelaunch{
 	margin: 120px 0 200px 0;
+}
 }
 
 h2{
