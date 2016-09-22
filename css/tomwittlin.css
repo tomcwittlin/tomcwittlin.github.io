@@ -321,10 +321,19 @@ h1.portfolio{
 	font-family: 'Roboto', sans-serif; 
 	color:#999999;
 }
+@media screen and (max-width: 40em) {
+.scrollingTitles{
+	text-align: left;
+	padding: 10px 0;
+	margin-bottom: 30px;
+}
+}
+@media screen and (min-width: 40em) {
 .scrollingTitles{
 	text-align: left;
 	padding: 10px 0;
 	margin-bottom: 100px;
+}
 }
 .scrollingTitles p{
 	padding: 0;
