@@ -34,7 +34,7 @@ a.link{
 
 
 /* TYPOGRAPHY */
-@media screen and (max-width: 40em) {
+@media screen and (min-width: 40em) {
 .homelaunch{
 	margin: 40px 0 100px 0;
 }
