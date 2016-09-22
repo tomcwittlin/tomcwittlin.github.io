@@ -4,6 +4,7 @@ $(document).ready(init);
 
 function init() {
   $('#mobilemenuopen, #mobilemenuclose').on('touchstart click', function (e) {
+    e.preventDefault();
     $('#primarynav').fadeToggle();
   });
 
