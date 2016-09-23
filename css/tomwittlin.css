@@ -64,10 +64,16 @@ h2{
 
 
 /* MAIN LAYOUT - NAVIGATION */
-#mobilemenuopen, #mobilemenuclose {
+#mobilemenuopen{
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	z-index: 10;
+}
+#mobilemenuclose {
 	position: absolute;
 	top: 10px;
-	right: 10px;
+	right: 20px;
 	z-index: 10;
 }
 #primarynav{
