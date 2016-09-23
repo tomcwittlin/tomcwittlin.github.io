@@ -295,7 +295,9 @@ h1.portfolio{
 	
 }
 
-
+.grey{
+	color:#999;
+}
 /* Intro page */
 .home a{
 	text-decoration: underline !important
