@@ -30,6 +30,20 @@ a.link{
 .tom-slider.slick-slider img{
 	border: 1px solid #ccc;
 }
+
+.mobile-portfolio-window{
+	display: none;
+}
+
+@media screen and (max-width: 40em) {
+	.mobile-portfolio-window{
+	display: block;
+	width: 100%;
+}
+.desktop-portfolio-window{
+	display: none
+}
+}
 /* END SLIDER */
 
 
