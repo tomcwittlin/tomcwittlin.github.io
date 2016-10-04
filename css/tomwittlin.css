@@ -38,6 +38,9 @@ a.link{
 	.homelaunch{
 		margin: 0px 0 100px 0;
 	}
+	h1{
+		font-size: 40px;
+	}
 }
 @media screen and (min-width: 40em) {
 	.homelaunch{
@@ -210,15 +213,39 @@ h2{
 	}
 }
 
-#nametag{
-	display: none;
-}
 #nametag img{
 	width: 50%;
+	max-width: 1200px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+
+@media screen and (max-width: 40em) {
+	#hometitle {
+		display: none;
+	}
+
+	#nametag{
+		display: block;
+		position: absolute;
+		text-align: center;
+		width: 100%;
+		margin-top: 0px;
+		margin-bottom: 80px;
+		text-align: center;
+		top: 80px;
+		z-index: 2;
+	}
+	#nametag img{
+	width: 80%;
 	max-width: 1200px;
 	margin-bottom: 0px;
 	text-align: center;
 }
+}
+
+
 @media screen and (min-width: 40em) {
 	#hometitle {
 		display: none;
