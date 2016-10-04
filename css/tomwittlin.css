@@ -251,7 +251,7 @@ h2{
 		z-index: 2;
 	}
 	#nametag img{
-	max-width: 1200px;
+		width: 70%;
 	margin-bottom: 0px;
 	text-align: center;
 }
@@ -261,9 +261,6 @@ h2{
 .homespecial{
 		display: block;		
 		margin: 0 auto;
-		text-align: center;
-		width: 50%;		
-		text-align: center;
 		top: 100px;
 		z-index: 2;
 }
