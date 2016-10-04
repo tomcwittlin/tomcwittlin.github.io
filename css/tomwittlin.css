@@ -150,17 +150,14 @@ h2{
 .internal-title-full {
 	display: block;
 	vertical-align: bottom;
-	margin: 0 auto;
-	padding-top: 80px;
-	padding-bottom: 40px;
-	max-width: 800px;
+	margin: 20px 0 0 20px;
+	max-width: 80px;
+	float: left;
 
 }
 
 @media screen and (min-width: 40em) {
 	.internal-title-full {
-		padding-top: 0px;
-		padding-bottom: 20px;
 		display: none;
 	}
 }
