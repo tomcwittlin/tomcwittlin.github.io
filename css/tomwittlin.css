@@ -230,7 +230,9 @@ h2{
 	margin-bottom: 20px;
 	text-align: center;
 }
-
+.homespecial{
+	display: none;
+}
 
 @media screen and (max-width: 40em) {
 	#hometitle {
@@ -249,10 +251,21 @@ h2{
 		z-index: 2;
 	}
 	#nametag img{
-	width: 80%;
 	max-width: 1200px;
 	margin-bottom: 0px;
 	text-align: center;
+}
+.homenormal{
+	display: none;
+}
+.homespecial{
+		display: block;		
+		margin: 0 auto;
+		text-align: center;
+		width: 50%;		
+		text-align: center;
+		top: 100px;
+		z-index: 2;
 }
 }
 
