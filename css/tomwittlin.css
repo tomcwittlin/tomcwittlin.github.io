@@ -234,7 +234,7 @@ h2{
 		margin-top: 0px;
 		margin-bottom: 0px;
 		text-align: center;
-		top: 70px;
+		top: 120px;
 		z-index: 2;
 	}
 	#nametag img{
@@ -288,10 +288,11 @@ h2{
 #novideo{
 	background: url(../fallback.jpg) no-repeat;
 	width: 100%;
-	height: 260px;
+	height: 400px;
 	display: block;
-	background-size:contain;
-	margin-bottom: 80px
+	background-size: cover;
+	margin-bottom: 80px;
+	background-position: center;
 }
 }
 /* END HOMEPAGE SPECIAL */
