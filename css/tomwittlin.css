@@ -408,3 +408,13 @@ h1.portfolio-title{
 		top: 0;
 	}
 }
+@media screen and (max-width: 40em) {
+.scrollexplore{
+	display: none;
+}
+}
+@media screen and (min-width: 40em) {
+.scrollexplore{
+	margin-top: 40px;
+}
+}
