@@ -278,6 +278,22 @@ h2{
 	height: 0px;
 	clear: both;
 }
+#novideo{
+	display: none;
+}
+@media screen and (max-width: 30em) {
+	#videoholder{
+		display: none;
+}
+#novideo{
+	background: url(../fallback.jpg) no-repeat;
+	width: 100%;
+	height: 260px;
+	display: block;
+	background-size:contain;
+	margin-bottom: 80px
+}
+}
 /* END HOMEPAGE SPECIAL */
 
 
